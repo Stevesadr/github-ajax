@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "googlefont";
+    src: url(../../../fonts/Sometype_Mono/SometypeMono-VariableFont_wght.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "bodyfont";
+    src: url(../../../fonts/Indie_Flower/IndieFlower-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #427d9d;
+    height: 100%;
+}
+header{
+    font-family: "googlefont",sans-serif;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+    padding-left:10px;
+    margin-top: 10px;
+    color: #ddf2fd;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+section{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.body{
+    font-family: "bodyfont", sans-serif;
+    width: 85%;
+    height: auto;
+    background-color: #ddf2fd;
+    border-radius: 16px;
+    padding-left:10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 130px;
+    height: 200px;
+    background-color: #9bbec8;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+li{
+    width: auto;
+    height: 100px;
+    list-style: none;
+    display: flex;
+    margin-bottom:10px ;
+
+}
+img{
+    width: auto;
+    height:auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 0px 4px black;
+}
+
+  
+h3{
+    font-size: 30px;
+    color: black;
+    display: block;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+
+
